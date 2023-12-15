@@ -11,7 +11,7 @@ time_per_step = []
 complete_start_time = time.time()
 text_classifier = pipeline(
     task="image-to-text",
-     model="Salesforce/blip-image-captioning-large/",
+     model="Salesforce/blip-image-captioning-large",
     framework="pt",
     device=torch.device("cpu"),
 )
